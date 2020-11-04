@@ -13,7 +13,7 @@
       "clientId": "$REG_NOTICE_CLIENT_ID"
     },
     "reg-publish-s3-plugin": {
-      "bucketName": "reg-publish-bucket-63b30113-4470-483f-bd0d-d7f7b99e7f4d"
+      "bucketName": "$REG_S3_BUCKET_NAME"
     }
   }
 }
