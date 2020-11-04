@@ -33,7 +33,7 @@ const NewTodoTextInput: React.FC<Props> = ({ submitTodoList }: Props) => {
 
   return (
     <header className="header">
-      <H1>todoos</H1>
+      <H1>todos</H1>
       <NewTodoInput
         type="text"
         className="new-todo"
