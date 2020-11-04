@@ -9,3 +9,4 @@ coverage/
 .reg
 .env
 __screenshots__
+dist-storybook
