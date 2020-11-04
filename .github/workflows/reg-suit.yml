@@ -34,7 +34,7 @@ jobs:
       - name: run storycap
         run: yarn ci:storycap
       - name: run reg-suit
-        run: yarn ci:vrt
+        run: yarn ci:regression
 
 env:
   REG_NOTICE_CLIENT_ID: ${{ secrets.REG_NOTICE_CLIENT_ID }}
