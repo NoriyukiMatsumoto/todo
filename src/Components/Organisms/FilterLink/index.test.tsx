@@ -1,9 +1,9 @@
 import React from 'react'
-import { fireEvent, render, screen } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import FilterLink from './index'
 
 test('<FilterLink /> should render All', () => {
-  const screen = render(<FilterLink path={"/"} />)
+  const screen = render(<FilterLink path={'/'} />)
   expect(screen.getByText(/All/)).toHaveClass('selected')
   expect(screen.getByText(/Active/)).not.toHaveClass('selected')
   expect(screen.getByText(/Completed/)).not.toHaveClass('selected')
