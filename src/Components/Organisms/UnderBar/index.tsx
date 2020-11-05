@@ -1,5 +1,5 @@
 import React from 'react'
-import FilterLink from '../../Molecules/FilterLink'
+import FilterLink from '../FilterLink'
 import { Layout } from './style'
 import { Routes, Todo } from '../../../dataStructure'
 

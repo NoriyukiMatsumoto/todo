@@ -1,6 +1,6 @@
 import { RecoilRoot } from 'recoil'
 import ReactDOM from 'react-dom'
-import App from '.'
+import Todos from '.'
 import { recoilState } from '../../dataStructure'
 
 it('renders without crashing', () => {
@@ -32,7 +32,7 @@ it('renders without crashing', () => {
         set(recoilState, todo)
       }}
     >
-      <App path="/" />
+      <Todos path="/" />
     </RecoilRoot>,
     div
   )
