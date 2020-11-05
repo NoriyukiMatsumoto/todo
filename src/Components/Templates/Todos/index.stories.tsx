@@ -38,3 +38,14 @@ export const todos: React.FC<Props> = () => {
     />
   )
 }
+
+export const noneTodos: React.FC<Props> = () => {
+  return (
+    <Todos
+      path="/"
+      todoList={[]}
+      addTodo={() => {}}
+      changeTodoList={() => {}}
+    />
+  )
+}
