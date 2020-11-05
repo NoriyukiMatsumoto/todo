@@ -14,7 +14,7 @@ interface Props {
   path: Routes
 }
 
-const App: React.FC<Props & RouteComponentProps> = ({ path }) => {
+const Todos: React.FC<Props & RouteComponentProps> = ({ path }) => {
   const [appState, setAppState] = useRecoilState<AppState>(recoilState)
 
   // if appState has changes, save it LocalStorage.
@@ -43,4 +43,4 @@ const App: React.FC<Props & RouteComponentProps> = ({ path }) => {
   )
 }
 
-export default App
+export default Todos

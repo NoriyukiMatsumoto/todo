@@ -2,7 +2,7 @@ import React from 'react'
 import NewTodoInput from '../../Molecules/NewTodoInput'
 import TodoList from '../../Organisms/TodoList'
 import UnderBar from '../../Organisms/UnderBar'
-import Copyright from '../../Molecules/Copyright'
+import Copyright from '../../Organisms/Copyright'
 import { Layout } from './style'
 import { Routes, Todo } from '../../../dataStructure'
 
