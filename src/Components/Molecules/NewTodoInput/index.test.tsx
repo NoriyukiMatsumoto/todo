@@ -8,7 +8,7 @@ describe('renderのテスト', () => {
     render(<NewTodoTextInput submitTodoList={handleSubmitTodoList} />)
 
     // Header text
-    expect(screen.getByText('todas')).toBeInTheDocument()
+    expect(screen.getByText('todes')).toBeInTheDocument()
     // Text input
     expect(screen.getByTestId('new-todo-input-text')).toBeInTheDocument()
   })
