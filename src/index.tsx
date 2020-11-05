@@ -5,8 +5,8 @@ import { RecoilRoot } from 'recoil'
 import './index.css'
 import * as serviceWorker from './serviceWorker'
 import Todos from './Pages/Todos'
-import ErrorBoundary from './Components/Templates/ErrorBoundary'
-import { NotFound } from './Components/Templates/NotFound'
+import ErrorBoundary from './Pages/ErrorBoundary'
+import NotFound from './Pages/NotFound'
 import { Routes } from './dataStructure'
 
 interface Props {
