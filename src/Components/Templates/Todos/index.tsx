@@ -22,6 +22,7 @@ const Todos: React.FC<Props> = ({
   return (
     <Layout>
       <section className="todoapp">
+        test
         <NewTodoInput submitTodoList={addTodo} />
         {todoList.length ? (
           <>
